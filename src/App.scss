@@ -1,32 +1,14 @@
-.App {
-  text-align: center;
-}
+@import '~bootstrap/scss/bootstrap';
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+// variables
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+$dark-gray: #282c34;
+$blue-link: #61dafb;
+$padding: 10px;
 
-.App-link {
-  color: #61dafb;
-}
+// elements
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  @extend .d-inline-block, .align-top;
+  margin-right: $padding;
 }

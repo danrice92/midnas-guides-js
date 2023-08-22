@@ -1,14 +1,27 @@
-import midnasHelmet from 'midnas-helmet.png';
 import 'App.scss';
+import midnasHelmet from 'midnas-helmet.png';
+
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={midnasHelmet} className="App-logo" alt="logo" />
-        <p>Midna's Guides</p>
-      </header>
-    </div>
+    <Container fluid>
+      <Navbar className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="/">
+            <img
+              alt=""
+              src={midnasHelmet}
+              width="30"
+              height="30"
+              className="logo"
+            />
+            Midna's Guides
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
+    </Container>
   );
 }
 
