@@ -9,7 +9,7 @@ import TheLegendOfZelda from 'guides/the_legend_of_zelda';
 
 function App() {
   return (
-    <Container fluid>
+    <div className="app">
       <Navbar className="bg-body-tertiary mb-3">
         <Container>
           <Navbar.Brand href="/">
@@ -25,7 +25,7 @@ function App() {
         </Container>
       </Navbar>
       <TheLegendOfZelda />
-    </Container>
+    </div>
   );
 }
 
