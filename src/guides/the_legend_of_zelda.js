@@ -1,8 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import ListGroup from 'react-bootstrap/ListGroup';
 import Table from 'react-bootstrap/Table';
 
 import theLegendOfZeldaLogo from 'images/the-legend-of-zelda-logo.png';
