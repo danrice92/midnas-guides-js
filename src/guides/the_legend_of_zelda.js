@@ -2,7 +2,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 
-import theLegendOfZeldaLogo from 'the-legend-of-zelda-logo.png';
+import theLegendOfZeldaLogo from 'images/the-legend-of-zelda-logo.png';
 
 export default function TheLegendOfZelda() {
   return (

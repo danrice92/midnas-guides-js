@@ -5,10 +5,26 @@
 $dark-gray: #282c34;
 $blue-link: #61dafb;
 $padding: 10px;
+$dark-gold: #b99658;
+$light-gold: #f0ddbd;
 
 // elements
-
 .logo {
   @extend .d-inline-block, .align-top;
   margin-right: $padding;
+}
+
+.accordion-button {
+  &::after {
+    background-image: url(images/white-caret.svg);
+  }
+
+  &:not(.collapsed) {
+    background-color: $dark-gold;
+    color: white;
+
+    &::after {
+      background-image: url(images/white-caret.svg);
+    }
+  }
 }

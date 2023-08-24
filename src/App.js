@@ -1,5 +1,5 @@
 import 'App.scss';
-import midnasHelmet from 'midnas-helmet.png';
+import midnasHelmet from 'images/midnas-helmet.png';
 
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
