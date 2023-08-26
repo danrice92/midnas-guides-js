@@ -14,16 +14,76 @@ export default function TheLegendOfZelda() {
         src={theLegendOfZeldaLogo}
         className="logo"
       />
+      <p>
+        Welcome to the Midna's Guide to <i>The Legend of Zelda</i>. Open a
+        section to get started.
+      </p>
       <Accordion defaultActiveKey="0">
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Introduction</Accordion.Header>
+          <Accordion.Header>About the Game</Accordion.Header>
           <Accordion.Body>
-            Welcome to the Midna's Guide to <i>The Legend of Zelda</i>. Open a
-            section to get started.
+            <h1>Release</h1>
+            <p>
+              <i>The Legend of Zelda</i> is the first game in the <i>Zelda</i>{' '}
+              franchise. It was released in 1986 in Japan, and 1987 in the US
+              and PAL territories.
+            </p>
+            <p>
+              Given its age, <i>The Legend of Zelda</i> might seem exceptionally
+              difficult for modern gamers. Very little story or direction is
+              provided for what to do or how to do it, and the game can be quite
+              punishing at times. That's why Midna's Guides is here to help!
+            </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
-          <Accordion.Header>How to Play</Accordion.Header>
+          <Accordion.Header>First Time Playing?</Accordion.Header>
+          <Accordion.Body>
+            <h1>It's dangerous to go alone...</h1>
+            <p>
+              You should not be shy about looking up a guide to{' '}
+              <i>The Legend of Zelda</i>, especially if it's your first time
+              playing. Aside from its difficulty, <i>Zelda</i> was released in
+              the 1980s, when gaming was very different from how it is today.
+            </p>
+            <p>
+              For one, physical media packaged along with games at the time was
+              not just for collectors; it was essential information.{' '}
+              <i>The Legend of Zelda</i> included a map and an instruction
+              booklet that went into more detail about the story, characters,
+              and enemies players would encounter.
+            </p>
+            <p>
+              For another, Nintendo knew how hard it was to discover all of the
+              game's secrets, and encouraged players to talk in-person about
+              their discoveries from the start. When they launched a monthly
+              magazine, <i>Nintendo Power</i>, they{' '}
+              <a href="https://archive.org/details/NintendoPower1988-2004/Nintendo%20Power%20Issue%20001%20%28July-August%201988%29/page/n3/mode/2up">
+                included tips about Zelda in the very first issue.
+              </a>
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="2">
+          <Accordion.Header>Where to Buy</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              <i>The Legend of Zelda</i> is currently available to play on the
+              Nintendo Switch through the{' '}
+              <a href="https://www.nintendo.com/store/products/nintendo-entertainment-system-nintendo-switch-online-switch/">
+                Nintendo Entertainment System app
+              </a>
+              . Access to the app is included in the base tier of Nintendo's
+              subscription service,{' '}
+              <a href="https://www.nintendo.com/switch/online/nintendo-switch-online/">
+                Nintendo Switch Online
+              </a>
+              .
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="3">
+          <Accordion.Header>Release History</Accordion.Header>
           <Accordion.Body>
             <Table striped bordered hover>
               <thead>
