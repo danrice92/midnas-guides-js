@@ -1,5 +1,7 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Table from 'react-bootstrap/Table';
 
@@ -8,12 +10,15 @@ import theLegendOfZeldaLogo from 'images/the-legend-of-zelda-logo.png';
 export default function TheLegendOfZelda() {
   return (
     <Container fluid>
-      <Image
-        fluid
-        alt="The Legend of Zelda logo"
-        src={theLegendOfZeldaLogo}
-        className="logo"
-      />
+      <Row>
+        <Col className="d-flex justify-content-center">
+          <Image
+            fluid
+            alt="The Legend of Zelda logo"
+            src={theLegendOfZeldaLogo}
+          />
+        </Col>
+      </Row>
       <p>
         Welcome to the Midna's Guide to <i>The Legend of Zelda</i>. Open a
         section to get started.
@@ -25,43 +30,33 @@ export default function TheLegendOfZelda() {
             <h1>Release</h1>
             <p>
               <i>The Legend of Zelda</i> is the first game in the <i>Zelda</i>{' '}
-              franchise. It was released in 1986 in Japan, and 1987 in the US
-              and PAL territories.
-            </p>
-            <p>
-              Given its age, <i>The Legend of Zelda</i> might seem exceptionally
-              difficult for modern gamers. Very little story or direction is
-              provided for what to do or how to do it, and the game can be quite
-              punishing at times. That's why Midna's Guides is here to help!
+              franchise. It was released in 1986 in Japan, and 1987
+              internationally.
             </p>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="1">
           <Accordion.Header>First Time Playing?</Accordion.Header>
           <Accordion.Body>
-            <h1>It's dangerous to go alone...</h1>
-            <p>
-              You should not be shy about looking up a guide to{' '}
-              <i>The Legend of Zelda</i>, especially if it's your first time
-              playing. Aside from its difficulty, <i>Zelda</i> was released in
-              the 1980s, when gaming was very different from how it is today.
-            </p>
-            <p>
-              For one, physical media packaged along with games at the time was
-              not just for collectors; it was essential information.{' '}
-              <i>The Legend of Zelda</i> included a map and an instruction
-              booklet that went into more detail about the story, characters,
-              and enemies players would encounter.
-            </p>
-            <p>
-              For another, Nintendo knew how hard it was to discover all of the
-              game's secrets, and encouraged players to talk in-person about
-              their discoveries from the start. When they launched a monthly
-              magazine, <i>Nintendo Power</i>, they{' '}
-              <a href="https://archive.org/details/NintendoPower1988-2004/Nintendo%20Power%20Issue%20001%20%28July-August%201988%29/page/n3/mode/2up">
-                included tips about Zelda in the very first issue.
-              </a>
-            </p>
+            <h1>
+              It's dangerous to go alone... Here are a few things to know!
+            </h1>
+            <ul>
+              <li className="mt-3">
+                The original release came with a detailed instruction booklet
+                and a map in the box that contained lots of valuable information
+                for players. Don't be shy about looking things up!
+              </li>
+              <li className="mt-3">
+                Link can only move up, down, left, and right. He cannot move at
+                an angle. Get comfortable with this limitation early.
+              </li>
+              <li className="mt-3">
+                Games from the 1980s were difficult on purpose. The technical
+                limitations meant that very little data could be stored on one
+                game cartridge. Expect a challenge ahead!
+              </li>
+            </ul>
           </Accordion.Body>
         </Accordion.Item>
         <Accordion.Item eventKey="2">
@@ -105,8 +100,11 @@ export default function TheLegendOfZelda() {
                   <td>2018</td>
                   <td>
                     <a href="https://www.nintendo.com/store/products/nintendo-entertainment-system-nintendo-switch-online-switch/">
-                      Nintendo Entertainment System emulator (part of Nintendo
-                      Switch Online)
+                      Nintendo Entertainment System app
+                    </a>{' '}
+                    (part of{' '}
+                    <a href="https://www.nintendo.com/switch/online/nintendo-switch-online/">
+                      Nintendo Switch Online)
                     </a>
                     . Modified versions are included that allow players to start
                     with extra hearts and equipment.
@@ -133,12 +131,152 @@ export default function TheLegendOfZelda() {
                   <td>Game Boy Advance (part of the Classic NES Series)</td>
                 </tr>
                 <tr>
+                  <td>2004</td>
+                  <td>
+                    GameCube (part of{' '}
+                    <i>The Legend of Zelda: Collector's Edition</i>, a
+                    compilation of classic games in the series)
+                  </td>
+                </tr>
+                <tr>
                   <td>2001</td>
-                  <td>Included in Animal Crossing</td>
+                  <td>Included in Animal Crossing for GameCube</td>
                 </tr>
                 <tr>
                   <td>1987</td>
                   <td>Nintendo Entertainment System</td>
+                </tr>
+              </tbody>
+            </Table>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="4">
+          <Accordion.Header>Menu Controls</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Controls are listed for the Nintendo Switch Online version of the
+              game.
+            </p>
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <td>Button</td>
+                  <td>Function</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Left Control Stick</td>
+                  <td>
+                    Move the cursor when selecting text for your character's
+                    name.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Directional Pad / Directional buttons on Joy-Cons</td>
+                  <td>
+                    Move the cursor when selecting text for your character's
+                    name.
+                  </td>
+                </tr>
+                <tr>
+                  <td>+</td>
+                  <td>
+                    Start the game and select options. It is equivalent to the
+                    NES's START button.
+                  </td>
+                </tr>
+                <tr>
+                  <td>-</td>
+                  <td>
+                    Moves the cursor down one, cycling back to the top once the
+                    bottom is reached. It is equivalent to the NES's SELECT
+                    button.
+                  </td>
+                </tr>
+                <tr>
+                  <td>A</td>
+                  <td>Select text for your character's name.</td>
+                </tr>
+                <tr>
+                  <td>B and X</td>
+                  <td>
+                    Move the cursor to the right when naming a character,
+                    cycling back to the start of the line when the far right is
+                    reached. Both buttons are equivalent to the NES's B button.
+                  </td>
+                </tr>
+                <tr>
+                  <td>ZL + ZR</td>
+                  <td>
+                    Tap them at the same time to suspend the game. Hold them
+                    down together to rewind the game.
+                  </td>
+                </tr>
+              </tbody>
+            </Table>
+          </Accordion.Body>
+        </Accordion.Item>
+        <Accordion.Item eventKey="5">
+          <Accordion.Header>In-Game Controls</Accordion.Header>
+          <Accordion.Body>
+            <p>
+              Controls are listed for the Nintendo Switch Online version of the
+              game.
+            </p>
+            <Table striped bordered hover>
+              <thead>
+                <tr>
+                  <td>Button</td>
+                  <td>Function</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Left Control Stick</td>
+                  <td>
+                    Move Link, or move the cursor in the inventory menu to
+                    select a different item.
+                  </td>
+                </tr>
+                <tr>
+                  <td>Directional Pad / Directional buttons on Joy-Cons</td>
+                  <td>
+                    Move Link, or move the cursor in the inventory menu to
+                    select a different item.
+                  </td>
+                </tr>
+                <tr>
+                  <td>+</td>
+                  <td>
+                    Pause the game, bringing up the inventory menu. It is
+                    equivalent to the NES's START button.
+                  </td>
+                </tr>
+                <tr>
+                  <td>-</td>
+                  <td>
+                    Pause the game, freezing the screen. It is equivalent to the
+                    NES's SELECT button.
+                  </td>
+                </tr>
+                <tr>
+                  <td>A</td>
+                  <td>
+                    Swing the sword. Once the sword is equipped, it cannot be
+                    removed.
+                  </td>
+                </tr>
+                <tr>
+                  <td>B and X</td>
+                  <td>Use the item equipped in the inventory menu.</td>
+                </tr>
+                <tr>
+                  <td>ZL + ZR</td>
+                  <td>
+                    Tap them at the same time to suspend the game. Hold them
+                    down together to rewind the game.
+                  </td>
                 </tr>
               </tbody>
             </Table>

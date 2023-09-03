@@ -10,7 +10,7 @@ $light-gold: #f0ddbd;
 
 // elements
 .logo {
-  @extend .d-inline-block, .align-top;
+  @extend .align-top;
   margin-right: $padding;
 }
 
