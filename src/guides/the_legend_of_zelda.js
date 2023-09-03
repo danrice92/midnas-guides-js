@@ -1,11 +1,13 @@
 import Accordion from 'react-bootstrap/Accordion';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
 import Table from 'react-bootstrap/Table';
 
 import theLegendOfZeldaLogo from 'images/the-legend-of-zelda-logo.png';
+import { firstQuestWalkthrough } from 'walkthrough_content/the_legend_of_zelda';
+import WalkthroughSection from 'widgets/walkthrough_section';
 
 export default function TheLegendOfZelda() {
   return (
@@ -23,8 +25,8 @@ export default function TheLegendOfZelda() {
         Welcome to the Midna's Guide to <i>The Legend of Zelda</i>. Open a
         section to get started.
       </p>
-      <Accordion defaultActiveKey="0">
-        <Accordion.Item eventKey="0">
+      <Accordion defaultActiveKey="aboutTheGame">
+        <Accordion.Item eventKey="aboutTheGame">
           <Accordion.Header>About the Game</Accordion.Header>
           <Accordion.Body>
             <h1>Release</h1>
@@ -35,7 +37,7 @@ export default function TheLegendOfZelda() {
             </p>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="1">
+        <Accordion.Item eventKey="firstTimePlaying">
           <Accordion.Header>First Time Playing?</Accordion.Header>
           <Accordion.Body>
             <h1>
@@ -59,7 +61,7 @@ export default function TheLegendOfZelda() {
             </ul>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="2">
+        <Accordion.Item eventKey="whereToBuy">
           <Accordion.Header>Where to Buy</Accordion.Header>
           <Accordion.Body>
             <p>
@@ -77,7 +79,7 @@ export default function TheLegendOfZelda() {
             </p>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="3">
+        <Accordion.Item eventKey="releaseHistory">
           <Accordion.Header>Release History</Accordion.Header>
           <Accordion.Body>
             <Table striped bordered hover>
@@ -150,7 +152,7 @@ export default function TheLegendOfZelda() {
             </Table>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="4">
+        <Accordion.Item eventKey="menuControls">
           <Accordion.Header>Menu Controls</Accordion.Header>
           <Accordion.Body>
             <p>
@@ -217,7 +219,7 @@ export default function TheLegendOfZelda() {
             </Table>
           </Accordion.Body>
         </Accordion.Item>
-        <Accordion.Item eventKey="5">
+        <Accordion.Item eventKey="inGameControls">
           <Accordion.Header>In-Game Controls</Accordion.Header>
           <Accordion.Body>
             <p>
@@ -282,6 +284,13 @@ export default function TheLegendOfZelda() {
             </Table>
           </Accordion.Body>
         </Accordion.Item>
+        {firstQuestWalkthrough.map((section) => (
+          <WalkthroughSection
+            guideName="First Quest"
+            key={section.part}
+            section={section}
+          />
+        ))}
       </Accordion>
     </Container>
   );
