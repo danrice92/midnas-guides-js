@@ -284,12 +284,11 @@ export default function TheLegendOfZelda() {
             </Table>
           </Accordion.Body>
         </Accordion.Item>
+      </Accordion>
+      <h1>First Quest</h1>
+      <Accordion>
         {firstQuestWalkthrough.map((section) => (
-          <WalkthroughSection
-            guideName="First Quest"
-            key={section.part}
-            section={section}
-          />
+          <WalkthroughSection key={section.part} section={section} />
         ))}
       </Accordion>
     </Container>
