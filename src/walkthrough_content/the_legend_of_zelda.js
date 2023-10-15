@@ -383,5 +383,195 @@ export const firstQuestWalkthrough = [
       },
       { instructions: 'Go up 1 and get Triforce Piece 5.' }
     ]
+  },
+  {
+    part: 11,
+    title: 'Before Level 6',
+    steps: [
+      {
+        instructions:
+          'Go down 1, left 7, down 1, left 1, down 1, left 1, down 1, left 1, and up 1 to get to Level 6.'
+      }
+    ]
+  },
+  {
+    part: 12,
+    title: 'Level 6: The Dragon',
+    steps: [
+      {
+        instructions: 'Go right 1. Defeat the Orange Wizzrobes to get the key.'
+      },
+      {
+        instructions:
+          'You can go up 1 to talk to an Old Man, who says "AIM AT THE EYES OF GOHMA," or you can save the key (recommended). Either way, from the Wizzrobe room, go left 1, use the key to go left 1 again, then go up 1 and defeat the Zols to get the Compass.'
+      },
+      {
+        instructions:
+          'Go up 2, push the left block, then go up 1. You can optionally defeat the Wizzrobes here for some rupees.'
+      },
+      {
+        instructions:
+          "You can technically bomb the righthand wall for a shortcut, but you'll miss out on the dungeon item. Instead, go up 1, defeat Gleeok, go right 1, and defeat the enemies to get the Dungeon Map."
+      },
+      {
+        instructions:
+          "Use a key to go up 1, defeat the Wizzrobes, push the block, and go down the stairs to get the Magical Wand. It's a long-range weapon, but unlike the arrows, it doesn't cost money to use it."
+      },
+      {
+        instructions: 'Go back up the ladder, down 1, right 1, and get the key.'
+      },
+      {
+        instructions:
+          "Optional: Go to the room northeast of you to hear the Old Man say 'THERE ARE SECRETS WHERE FAIRIES DON'T LIVE.' You can do it by going up 1 and bombing the righthand wall, or you can go right 1, defeat a bunch of Wizzrobes and Like Likes to get the door above to open, and go that way. It is recommended to skip the room to the right, since this dungeon already has enough Wizzrobes!"
+      },
+      {
+        instructions:
+          'Go left 1, down 1 with the key you just got, and grab another key in the middle of the room.'
+      },
+      {
+        instructions:
+          'Go down 1, defeat the Vires, go right 1, defeat the enemies, push the block, go down the stairs through the secret passage, go down 1, defeat the Vires, and get another key.'
+      },
+      {
+        instructions: 'Go left 1.'
+      },
+      {
+        instructions: 'Optional: go down 1, get some Bombs, and come back up 1.'
+      },
+      {
+        instructions:
+          'Go up 1 through the locked door, and face the boss: Gohma. Shoot its eye with an Arrow to defeat it and collect Heart Container 11.'
+      },
+      {
+        instructions: 'Go up 1 and collect Triforce Piece 6.'
+      }
+    ]
+  },
+  {
+    part: 13,
+    title: 'Before Level 7',
+    steps: [
+      {
+        instructions:
+          'If you have not yet purchased Bait, go down 1, right 1, up on the lefthand side, and push the block. Go down the stairs and pick the middle staircase to warp to south central Hyrule. Go left 3, up 1, left 2, and up 3. Push the top middle Armos statue and buy the Bait for 60 rupees'
+      },
+      {
+        instructions:
+          "Go down 2 and left 1. If you need some health, go up 1 to get to a Fairy Pond. If not, go left 1 and up 1 to find a pond that looks like a Fairy Pond, but isn't. Use the Recorder to make the pond drain and a staircase appear. Enter Level 7."
+      }
+    ]
+  },
+  {
+    part: 14,
+    title: 'Level 7: The Demon',
+    steps: [
+      {
+        instructions:
+          'Note: There are 4 keys in the dungeon, but 5 locked doors. Use this guide to avoid wasting one, or if you want to unlock everything, make sure you have an extra key from a previous dungeon or from a store.'
+      },
+      { instructions: 'Go right 1. Defeat the Moldorm to get Bombs.' },
+      {
+        instructions:
+          "Go up 1, right 1, defeat the Goriyas, and go up 1. The Old Man will say 'THERE'S A SECRET IN THE TIP OF THE NOSE.'"
+      },
+      {
+        instructions: 'Go down 1, right 1, and defeat the Digdoggers for Bombs.'
+      },
+      { instructions: 'Go right 1, defeat the Stalfos, and get the key.' },
+      {
+        instructions:
+          "Go left 4. If you are full on Bombs, blow up the left and upper walls before defeating the Goriyas, because they'll drop more Bombs as a reward."
+      },
+      { instructions: 'Go left 1. Defeat the Keese for even more bombs.' },
+      { instructions: 'Go down 1 and get the key.' },
+      {
+        instructions:
+          "Go up 2. If you want 5 rupees, defeat the 3 Dodongos here. Note that you'll need 100 for a bomb upgrade in the next step."
+      },
+      {
+        instructions:
+          'Go up 1 through the locked door. The final bomb upgrade can be purchased here for 100 rupees.'
+      },
+      {
+        instructions:
+          'Go down 1, right 2, and defeat the Stalfos to get the Compass.'
+      },
+      {
+        instructions:
+          'Go left 1, up 2, bomb the right wall, and defeat the Moldorms for another key.'
+      },
+      { instructions: 'Go left 2. Defeat the Goriyas for 5 rupees.' },
+      {
+        instructions:
+          'Go up 1 using a key. Use the Bait to get past the hungry Goriya.'
+      },
+      { instructions: 'Go up 1 and get the Dungeon Map.' },
+      {
+        instructions:
+          'You can save yourself a key by ignoring the locked door on the right. Bomb the upper wall to collect some rupees instead.'
+      },
+      {
+        instructions:
+          'Bomb the righthand wall to go right 1. Defeat the Goriyas for more rupees.'
+      },
+      { instructions: 'Go right 1, defeat the Goriyas, and get the key.' },
+      {
+        instructions:
+          'Go left 1, down 1, bomb the righthand wall (see that locked door we skipped?), defeat the Goriyas, push the lefthand block, and go down the stairs. Get the Red Candle.'
+      },
+      {
+        instructions:
+          'Go back up the stairs, bomb the righthand wall, and defeat the Goriyas for more Bombs.'
+      },
+      {
+        instructions:
+          "Ignore the room above you, as it's another room you don't need to enter and wastes a key (it contains Moldorms and more Bombs). Go right 1 with your key instead, defeat Digdogger, and go up 1. You can optionally defeat the Dodongos for more Bombs here."
+      },
+      {
+        instructions:
+          'Go right 1 by bombing the wall. Defeat the Wallmasters and push the block in the middle of the column of blocks on the far right of the room. Go down the stairs, come out the other side of the passage, and bomb the wall to the right to get to the boss: Aquamentus.'
+      },
+      {
+        instructions:
+          "Aquamentus is the same boss from the first dungeon, but he's simple now. Kick his ass and get Heart Container 12."
+      },
+      { instructions: 'Go right 1 and get Triforce Piece 7.' }
+    ]
+  },
+  {
+    part: 15,
+    title: 'Before Level 8',
+    steps: [
+      {
+        instructions: 'Get to level 8.'
+      }
+    ]
+  },
+  {
+    part: 16,
+    title: 'Level 8: The Lion',
+    steps: [
+      { instructions: 'Get the Magical Key.' },
+      { instructions: 'Get the Book of Magic.' },
+      { instructions: 'Defeat the boss.' }
+    ]
+  },
+  {
+    part: 17,
+    title: 'Before Level 9',
+    steps: [
+      {
+        instructions: 'Get to level 9.'
+      }
+    ]
+  },
+  {
+    part: 18,
+    title: 'Level 9: Death Mountain',
+    steps: [
+      { instructions: 'Get the Red Ring.' },
+      { instructions: 'Get the Silver Arrow.' },
+      { instructions: 'Defeat the boss.' }
+    ]
   }
 ];
