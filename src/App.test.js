@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import App from './routes/the_legend_of_zelda';
 
 test('renders learn react link', () => {
   render(<App />);

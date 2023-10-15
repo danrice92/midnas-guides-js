@@ -1,13 +1,10 @@
-import 'App.scss';
-import midnasHelmet from 'images/midnas-helmet.png';
-
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Navbar from 'react-bootstrap/Navbar';
 
-import TheLegendOfZelda from 'guides/the_legend_of_zelda';
+import midnasHelmet from 'images/midnas-helmet.png';
 
-function App() {
+export default function AppLayout({ children }) {
   return (
     <div className="app">
       <Navbar className="bg-body-tertiary mb-3">
@@ -24,9 +21,7 @@ function App() {
           </Navbar.Brand>
         </Container>
       </Navbar>
-      <TheLegendOfZelda />
+      {children}
     </div>
   );
 }
-
-export default App;
